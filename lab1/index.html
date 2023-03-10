@@ -17,19 +17,35 @@
             border: 1px solid black;
             border-collapse: collapse;
         }
+
+        img {
+            width: 30%;
+            height: 30%;
+        }
     </style>
 
 </head>
 
 <body>
+    <header>
+        <h1>Welcome to my website!</h1>
+    </header>
 
-    <div id="taskOne">
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="Task One">
         <h4>Task One</h4>
         <h1>Hello World!</h1>
         <i>Hi!</i>
     </div>
 
-    <div id="taskTwo">
+    <div id="Task Two">
         <h4>Task Two</h4>
         <ul>
             <li>Coffee</li>
@@ -43,13 +59,31 @@
         </ol>
     </div>
 
-    <div id="taskThree">
+    <div id="Task Three">
         <h4>Task Three</h4>
-        <a href="./taskThree.html">Redirection to Task Two.</a>
+        <a href="./taskTwo.html">Redirection to Task Two.</a>
     </div>
 
-    <div id="taskFourOne">
-        <h4>Task Three</h4>
+    <div id="Task Four">
+        <h4>Task Four</h4>
+        <table>
+            <tr>
+                <td>2011 – obecnie</td>
+                <td>WSIZ</td>
+            </tr>
+            <tr>
+                <td>2008 – 2011</td>
+                <td>Liceum ogólnokształcące nr ...</td>
+            </tr>
+            <tr>
+                <td>2002 – 2008</td>
+                <td>Szkoła podstawowa nr ...</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="Task Four-One">
+        <h4>Task Four-One</h4>
         <table>
             <tr>
                 <td></td>
@@ -74,6 +108,78 @@
             </tr>
         </table>
     </div>
+
+    <div id="Task Five">
+        <h4>Task Five</h4>
+        <img
+            src="https://www.hillspet.com/content/dam/cp-sites/hills/hills-pet/en_us/exported/cat-care/images/cat-walking-across-window-sill-SW.jpg"></img>
+    </div>
+
+    <!-- SOME OF THE ATRIBUTES ARE NOT INCLUDED IN THIS <DIV>-->
+    <div id="Task Six">
+        <h4>Task Six</h4>
+        <section>
+            <h2>About me</h2>
+            <p>Hi, my name is Jane Doe and I'm a web developer.</p>
+            <p>I love creating websites and making them look beautiful.</p>
+        </section>
+
+        <aside>
+            <h3>Latest news</h3>
+            <p>Check out our new website design!</p>
+        </aside>
+
+        <article>
+            <h2>How to create a website</h2>
+            <p>Creating a website is easy, just follow these simple steps:</p>
+            <ol>
+                <li>Choose a domain name</li>
+                <li>Select a web hosting service</li>
+                <li>Design your website using HTML and CSS</li>
+                <li>Publish your website</li>
+            </ol>
+        </article>
+    </div>
+
+    <div id="Task Seven">
+        <h4>Task Seven</h4>
+        <ol>
+            <li>
+                <a href="randomFilms.html">Random Films.</a>
+            </li>
+            <li>
+                <a href="randomBooks.html">Random Books.</a>
+            </li>
+        </ol>
+    </div>
+
+    <div id="Task Eight">
+        <h4>Task Seven</h4>
+        <h1>Subscribe to our Newsletter</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text"><br>
+
+            <label for="email">Email:</label>
+            <input type="email"><br>
+
+            <label for="email">Receive email every day?</label>
+            <input type="checkbox"><br>
+
+            <label for="email">Receive 10% discount?</label>
+            <input type="radio"><br>
+
+            <label for="email">Select first news days</label>
+            <input type="date"><br>
+
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>
+
+    <footer>
+        <hr>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
 
 </body>
 
